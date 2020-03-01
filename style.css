@@ -44,3 +44,15 @@ body {
     color: hsl(200, 100%, 50%);
     border-color: black;
 }
+
+.languages {
+    position: fixed;
+    right: 0;
+    top: 0;
+    color: hsl(200, 100%, 50%);
+    padding: 20px;
+}
+
+.languages span {
+    cursor: pointer;
+}
