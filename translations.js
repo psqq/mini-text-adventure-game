@@ -28,6 +28,10 @@ const languages = { en, ru };
 
 let currentLanguage = 'en';
 
+if (languages[navigator.language]) {
+    currentLanguage = navigator.language;
+}
+
 function _(...args) {
     return languages[currentLanguage](...args);
 }
