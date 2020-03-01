@@ -114,7 +114,6 @@ function _(...args) {
 
 document.querySelectorAll('.languages span').forEach(el => {
     el.onclick = () => {
-        console.log('click', el.innerText);
         currentLanguage = el.innerText.trim();
         showTextNode(currentTextNode);
     };
